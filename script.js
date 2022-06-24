@@ -4,7 +4,7 @@ const context = canvas.getContext("2d");
 
 const frameCount = 240;
 const currentFrame = index => (
-  `https://res.cloudinary.com/tobitgl/image/upload/v1656089259/Portfolio/timelapse/summerWinterJPEGSeq${index.toString().padStart(3, '0')}.jpg`
+  `https://res.cloudinary.com/tobitgl/image/upload/v1656089259/Portfolio/timelapse/kleiner/summerWinterJPEGSeq${index.toString().padStart(3, '0')}.webp`
 )
 
 const preloadImages = () => {
